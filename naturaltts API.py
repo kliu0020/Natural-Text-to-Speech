@@ -44,6 +44,7 @@ def proxy_request(req_type, url, **kwargs):
         except:
 
             print("[*] Proxy Error")
+            break
 
             pass
     return r
